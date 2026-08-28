@@ -1,4 +1,5 @@
 <img width="2000" height="424" alt="4992ea1b-017d-4a33-a0e6-66d10eb6fd76" src="https://github.com/user-attachments/assets/309d47e7-8e78-4f1e-935b-a6b0c864ff3f" />
+
 # Maimemo Table
 
 将 Markdown、LaTeX、粘贴文本或结构化数据转换为清晰美观的墨墨风格表格，并输出透明背景 PNG 图片和可编辑 HTML 文件。
