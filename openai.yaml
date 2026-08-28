@@ -1,0 +1,5 @@
+interface:
+  display_name: "Maimemo Table"
+  short_description: "Render Maimemo-style tables as transparent PNGs"
+  brand_color: "#36b59d"
+  default_prompt: "Use $maimemo-table to turn this table into a transparent Maimemo-style PNG."

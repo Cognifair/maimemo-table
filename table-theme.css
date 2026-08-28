@@ -1,0 +1,97 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+
+#maimemo-table {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 52px 60px 58px;
+  background: transparent;
+  color: var(--mt-deep);
+  font-family: var(--mt-font);
+}
+
+#maimemo-table * {
+  box-sizing: border-box;
+}
+
+#maimemo-table h1 {
+  margin: 0 0 32px;
+  color: var(--mt-accent);
+  text-align: center;
+  font-size: 44px;
+  line-height: 1.25;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+#maimemo-table table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  color: var(--mt-deep);
+  background: transparent;
+  border: 2px solid color-mix(in srgb, var(--mt-deep) 72%, transparent);
+  font-size: 25px;
+  line-height: 1.55;
+}
+
+#maimemo-table col:first-child {
+  width: 13%;
+}
+
+#maimemo-table th,
+#maimemo-table td {
+  border: 1px solid color-mix(in srgb, var(--mt-deep) 42%, transparent);
+  padding: 16px 20px;
+  vertical-align: middle;
+  overflow-wrap: anywhere;
+}
+
+#maimemo-table thead th {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  color: var(--mt-white);
+  text-align: center;
+  font-size: 28px;
+  font-weight: 500;
+  background: var(--mt-accent);
+}
+
+#maimemo-table tbody th {
+  color: var(--mt-deep);
+  text-align: center;
+  font-weight: 500;
+  background: color-mix(in srgb, var(--mt-accent) 16%, transparent);
+}
+
+#maimemo-table tbody td {
+  color: var(--mt-deep);
+  background: transparent;
+  font-weight: 400;
+}
+
+#maimemo-table[data-corner-style="rounded"] table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 32px;
+  overflow: hidden;
+}
+
+#maimemo-table[data-corner-style="rounded"] th,
+#maimemo-table[data-corner-style="rounded"] td {
+  border: 0;
+  border-right: 1px solid color-mix(in srgb, var(--mt-deep) 42%, transparent);
+  border-bottom: 1px solid color-mix(in srgb, var(--mt-deep) 42%, transparent);
+}
+
+#maimemo-table[data-corner-style="rounded"] tr > :last-child {
+  border-right: 0;
+}
+
+#maimemo-table[data-corner-style="rounded"] tbody tr:last-child > * {
+  border-bottom: 0;
+}
