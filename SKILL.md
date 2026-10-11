@@ -22,9 +22,9 @@ Treat these as defaults. Preserve a user's explicit palette, font, dimensions, a
 
 ## Choose the corner style first
 
-Before creating the table, determine whether the user wants `square`（直角）or `rounded`（Apple 风圆角）corners.
+Before creating the table, determine whether the user wants `square`（直角）or `rounded`（圆角）corners.
 
-- If the user has not explicitly chosen, ask one concise question before rendering: “这张表格使用直角还是 Apple 风圆角？”
+- If the user has not explicitly chosen, ask one concise question before rendering: “这张表格使用直角还是圆角？”
 - Do not render until the user answers.
 - Do not ask again when the user already specified a style or is continuing an existing table whose style is clear.
 - `square` keeps crisp conventional table corners.
